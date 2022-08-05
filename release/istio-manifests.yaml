@@ -31,7 +31,8 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "*"
+    - "shop.onetruerelaxed.com"
+    - "boutique.onetruerelaxed.com"
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
